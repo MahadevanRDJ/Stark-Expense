@@ -101,18 +101,18 @@ packages:
     dependency: "direct main"
     description:
       name: connectivity_plus
-      sha256: "224a77051d52a11fbad53dd57827594d3bd24f945af28bd70bab376d68d437f0"
+      sha256: ebe15d94de9dd7c31dc2ac54e42780acdf3384b1497c69290c9f3c5b0279fc57
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.2"
+    version: "6.0.2"
   connectivity_plus_platform_interface:
     dependency: transitive
     description:
       name: connectivity_plus_platform_interface
-      sha256: cf1d1c28f4416f8c654d7dc3cd638ec586076255d407cef3ddbdaf178272a71a
+      sha256: b6a56efe1e6675be240de39107281d4034b64ac23438026355b4234042a35adb
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.4"
+    version: "2.0.0"
   convert:
     dependency: transitive
     description:
@@ -260,18 +260,18 @@ packages:
     dependency: transitive
     description:
       name: jiffy
-      sha256: a7c15924e9e351faab7259a3c673e2796e5e811ebbeb6e6dc9037cdcded5f541
+      sha256: b09b6aacc0ebe7d178d2fcbabfd73e7d3340594043fe949bb7e0814093b00201
       url: "https://pub.dev"
     source: hosted
-    version: "6.2.2"
+    version: "6.3.0"
   js:
     dependency: transitive
     description:
       name: js
-      sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
+      sha256: c1b2e9b5ea78c45e1a0788d29606ba27dc5f71f019f32ca5140f61ef071838cf
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.7"
+    version: "0.7.1"
   json_annotation:
     dependency: transitive
     description:
@@ -412,10 +412,10 @@ packages:
     dependency: transitive
     description:
       name: pointycastle
-      sha256: "43ac87de6e10afabc85c445745a7b799e04de84cebaa4fd7bf55a5e1e9604d29"
+      sha256: "70fe966348fe08c34bf929582f1d8247d9d9408130723206472b4687227e4333"
       url: "https://pub.dev"
     source: hosted
-    version: "3.7.4"
+    version: "3.8.0"
   provider:
     dependency: "direct main"
     description:
@@ -496,6 +496,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
+  shimmer:
+    dependency: "direct main"
+    description:
+      name: shimmer
+      sha256: "5f88c883a22e9f9f299e5ba0e4f7e6054857224976a5d9f839d4ebdc94a14ac9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -553,26 +561,26 @@ packages:
     dependency: transitive
     description:
       name: syncfusion_flutter_core
-      sha256: "7666506885ebc8f62bb928ad4588a73e20caaff2b2cf2b2b56f67d98f4113525"
+      sha256: "159b125f55d95534c0c39a5efd644f50a310821191946e15eac50a49032fb42c"
       url: "https://pub.dev"
     source: hosted
-    version: "24.2.9"
+    version: "25.1.39"
   syncfusion_flutter_xlsio:
     dependency: "direct main"
     description:
       name: syncfusion_flutter_xlsio
-      sha256: "6020dc5b4765e9850ddf0789fb247c03c10751869af1c888bf9cef2fbabc2389"
+      sha256: fed9aee298ad99dc69c472fa8bc49ddced89c0a0e43ebabbca3f72b1828e1029
       url: "https://pub.dev"
     source: hosted
-    version: "24.2.9"
+    version: "25.1.39"
   syncfusion_officecore:
     dependency: transitive
     description:
       name: syncfusion_officecore
-      sha256: "7d172ffe5b995788414faea199ed32fbca60297c9fc27a052711287bb710e3c4"
+      sha256: "2fe0bf92d7ac32da29eefd4ea73ea151d932f2452cf282089e86d7b2383dcbc7"
       url: "https://pub.dev"
     source: hosted
-    version: "24.2.9"
+    version: "25.1.39"
   term_glyph:
     dependency: transitive
     description:
@@ -649,10 +657,10 @@ packages:
     dependency: "direct main"
     description:
       name: xml2json
-      sha256: d97aed12d54193611c442c268155398f4170b52cfc0058aabbd79160c9c8eefb
+      sha256: "52b7c8d350fdce09545b058982c26689ee89f1eb188cc9910d585665bfe27bc0"
       url: "https://pub.dev"
     source: hosted
-    version: "6.2.2"
+    version: "6.2.3"
   yaml:
     dependency: transitive
     description:

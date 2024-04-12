@@ -33,6 +33,33 @@ class WidgetResource {
       };
 
   static AlertDialog getLoader(context) => _loader;
+
+  static getBalance(String currency, double totalBalance, Color color,
+          FontWeight fontWeight, double fontSize,
+          {MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start}) =>
+      _getBalance(currency, totalBalance, color, fontWeight, fontSize,
+          mainAxisAlignment: mainAxisAlignment);
+}
+
+Widget _getBalance(String currency, double totalBalance, Color color,
+    FontWeight fontWeight, double fontSize,
+    {MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start}) {
+  return Row(
+    mainAxisAlignment: mainAxisAlignment,
+    children: [
+      Text(
+        "$currency ",
+        style: TextStyle(
+            fontSize: fontSize, fontWeight: fontWeight, color: Colors.white),
+      ),
+      Text(totalBalance.toStringAsFixed(2),
+          style: TextStyle(
+              fontFamily: 'Inter',
+              fontWeight: fontWeight,
+              fontSize: fontSize,
+              color: color)),
+    ],
+  );
 }
 
 Widget _getAppLogo(BuildContext context) {

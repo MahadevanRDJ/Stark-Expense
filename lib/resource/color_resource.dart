@@ -1,7 +1,9 @@
 import 'dart:ui';
 
 class ColorResource {
-  static const primary = Color(0xFF0010AE);
+  static const primary = Color(0xFF429690);
+  static const onPrimary = Color(0xFF2F7E79);
+
   static const dashBoardBackGround = Color(0xFF042A43);
   static const communityColor = Color(0xFF91D7FB);
   static const headerColor = Color(0xFF041C2D);
